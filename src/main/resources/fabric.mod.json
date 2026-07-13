@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "skeleton_searcher",
+  "version": "${version}",
+  "name": "Skeleton Searcher",
+  "description": "前两个球体只计算，从第三个起以球壳或半透明方块显示所有球体的共同交集。",
+  "authors": [
+    "yym"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.yym.skeletonsearcher.SkeletonSearcherClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
